@@ -64,7 +64,7 @@ const ChatWindow: React.FC = () => {
     }
 
     if (chat) {
-      const aiResponseText = await sendMessageToAI(chat, inputText);
+      const aiResponseText = await sendMessageToAI(chat);
       const aiMessage: ChatMessage = {
         role: MessageRole.MODEL,
         text: aiResponseText,

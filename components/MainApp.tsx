@@ -3,8 +3,8 @@ import ChatWindow from './ChatWindow';
 import { LogoIcon } from './icons/LogoIcon';
 import NavTabs from './NavTabs';
 import ScreeningHome from './ScreeningHome';
-import { useAuth } from '../hooks/useAuth';
-import { LogoutIcon } from './icons/LogoutIcon';
+import { useAuth } from '../hooks/UseAuth';
+import { LogoutIcon } from '../components/icons/ogoutIcon';
 import ResourceHub from './ResourceHub';
 import AppointmentHome from './AppointmentHome';
 

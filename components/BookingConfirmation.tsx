@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Counsellor } from '../types';
 import { MOCK_BOOKING_SERVICE } from '../services/mockBookingService';
-import { useAuth } from '../hooks/useAuth';
+import { useAuth } from '../hooks/UseAuth';
 
 interface BookingConfirmationProps {
   counsellor: Counsellor;

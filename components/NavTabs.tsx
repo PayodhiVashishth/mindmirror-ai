@@ -2,7 +2,7 @@ import React from 'react';
 import { ChatIcon } from './icons/ChatIcon';
 import { ClipboardIcon } from './icons/ClipboardIcon';
 import { BookOpenIcon } from './icons/BookOpenIcon';
-import { CalendarIcon } from './icons/CalendarIcon';
+import { CalendarIcon } from './icons/alendarIcon';
 
 type Tab = 'chat' | 'screening' | 'resources' | 'appointments';
 

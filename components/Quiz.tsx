@@ -16,9 +16,10 @@ const Quiz: React.FC<QuizProps> = ({ test, onShowResults, onBack }) => {
   };
 
   const handleSubmit = () => {
-    const totalScore = Object.values(answers).reduce((sum, value) => sum + value, 0);
+    const totalScore = Object.values(answers).reduce((sum: number, value: number) => sum + value, 0);
     onShowResults(totalScore);
   };
+
 
   return (
     <div className="p-6 md:p-8 bg-slate-50 h-full">
